@@ -1,0 +1,23 @@
+{
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "steps": 1024,
+  "interval": 128,
+  "warmup": 128,
+  "rollout": 32,
+  "window": 256,
+  "meta_episodes": 9,
+  "meta_batch": 3,
+  "eval_episodes": 3,
+  "tpe_trials": 2,
+  "tuning_seeds": [
+    700
+  ],
+  "search_seed": 900,
+  "purpose": "pilot_not_paper_evidence"
+}

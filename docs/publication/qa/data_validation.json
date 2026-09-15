@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "runs": 265,
+  "groups": 53,
+  "seeds_per_group": 5,
+  "evaluation_episodes": 5300,
+  "controller_checkpoints": 70,
+  "scientific_source_sha256": "2beb0039911daa4f38309780291d2ecd12ee10b0ae4bf3b780d0d380918481d1",
+  "checks": [
+    "complete planned coverage",
+    "run score arithmetic",
+    "base and controller checkpoint hashes",
+    "current scientific source matches",
+    "positive controller weight change",
+    "full budgets",
+    "all saved actuation ranges",
+    "shared-stage deduplication"
+  ],
+  "historical_results_reproduced": false
+}

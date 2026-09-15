@@ -1,0 +1,25 @@
+{
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "steps": 100000,
+  "interval": 10000,
+  "warmup": 20000,
+  "rollout": 100,
+  "window": 1000,
+  "meta_episodes": 36,
+  "meta_batch": 8,
+  "eval_episodes": 20,
+  "tpe_trials": 50,
+  "tuning_seeds": [
+    700,
+    701,
+    702
+  ],
+  "search_seed": 900,
+  "purpose": "new_full_budget_experiments_not_historical_reproduction"
+}

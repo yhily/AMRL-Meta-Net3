@@ -1,0 +1,25 @@
+# CartPole-v1 — PPO + AMRL
+env:
+  name: CartPole-v1
+  max_steps: 30000
+  eval_episodes: 5
+
+algorithm:
+  name: PPO
+  rollout_length: 1
+  clip_ratio: 0.20
+
+hyperparameters:
+  alpha: 0.00030
+  gamma: 0.99
+  beta: 0.01
+
+meta_learning:
+  enabled: true
+  warmup_steps: 5000
+  update_interval: 5000
+  meta_lr: 0.00030
+  lstm_hidden: 64
+
+reproducibility:
+  seed: 42

@@ -1,0 +1,19 @@
+{
+  "seeds": [
+    0
+  ],
+  "steps": 256,
+  "interval": 32,
+  "warmup": 32,
+  "rollout": 16,
+  "window": 128,
+  "meta_episodes": 9,
+  "meta_batch": 3,
+  "eval_episodes": 1,
+  "tpe_trials": 1,
+  "tuning_seeds": [
+    700
+  ],
+  "search_seed": 900,
+  "purpose": "smoke_only_not_scientific_evidence"
+}

@@ -1,0 +1,1 @@
+Active experiment entry points use review_smoke.json, review_pilot.json or review_full.json. The three historical YAML files are retained for reference only and are not consumed by the repaired runner. See docs/IMPLEMENTATION_AND_PROTOCOL.md for the declared protocol.

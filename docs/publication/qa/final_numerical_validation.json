@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "independently_recomputed_paired_contrasts": 41,
+  "primary_family": 12,
+  "primary_rejections_at_05": 0,
+  "verified_raw_interventions": 1660,
+  "bibliography_keys_used": 39,
+  "undefined_source_references": 0,
+  "reviewer_reference_targets_verified": 13,
+  "frozen_static_seed_identity": true,
+  "source_target_catch_seed_identity": true,
+  "figure_data_integrity": "No synthetic data; all selected seeds; per-task scales; all primary outcomes included",
+  "limitations": [
+    "New reference experiments, not historical reproduction",
+    "5 seeds conditional on one TPE study per pair",
+    "CartPole uses extended 1000-step limit",
+    "Memory /0 length=1, not long-horizon memory",
+    "No full bsuite/PBT/scheduler rerun",
+    "Complete-stage sums exclude unrecorded partial interruptions"
+  ]
+}
