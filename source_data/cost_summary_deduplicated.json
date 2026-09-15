@@ -1,0 +1,20 @@
+{
+  "unique_controllers": 70,
+  "unique_tpe_studies": 12,
+  "unique_runs": 265,
+  "meta_seconds": 35767.42045741301,
+  "tpe_seconds": 25268.42009441802,
+  "online_seconds": 3481.8571410368895,
+  "evaluation_seconds": 89.1403582488565,
+  "meta_train_steps": 252000000,
+  "tpe_train_steps": 180000000,
+  "online_train_steps": 26500000,
+  "evaluation_steps": 1504269,
+  "tpe_evaluation_steps": 6899973,
+  "sum_measured_stage_seconds": 64606.83805111678,
+  "boundary": "Completed stage timers, not uninterrupted execution time; excludes unrecorded interrupted attempts and ancillary work. TPE includes candidate evaluation. Shared stages deduplicated.",
+  "additional_exploratory_completed_runs": 42,
+  "additional_exploratory_controllers": 12,
+  "additional_exploratory_meta_seconds": 6171.468417917,
+  "additional_exploratory_online_and_eval_seconds": 629.6953190439817
+}

@@ -1,0 +1,641 @@
+[
+  {
+    "env": "CartPole-v1",
+    "algorithm": "a2c",
+    "condition": "amrl",
+    "reference": "static",
+    "n": 5,
+    "mean_difference": 155.85999999999999,
+    "ci95": [
+      -276.87673409612887,
+      588.5967340961289
+    ],
+    "p_t": 0.373900966300059,
+    "p_exact": 1.0,
+    "dz": 0.4472135954999579,
+    "p_t_holm_12": 1.0,
+    "p_exact_holm_12": 1.0
+  },
+  {
+    "env": "CartPole-v1",
+    "algorithm": "a2c",
+    "condition": "joint",
+    "reference": "amrl",
+    "n": 5,
+    "mean_difference": -6.15,
+    "ci95": [
+      -44.458252244467886,
+      32.15825224446789
+    ],
+    "p_t": 0.6788541410594744,
+    "p_exact": 1.0,
+    "dz": -0.19933651737024666
+  },
+  {
+    "env": "CartPole-v1",
+    "algorithm": "a2c",
+    "condition": "specific",
+    "reference": "amrl",
+    "n": 5,
+    "mean_difference": -7.1299999999999955,
+    "ci95": [
+      -26.92605360006029,
+      12.666053600060298
+    ],
+    "p_t": 0.373900966300059,
+    "p_exact": 1.0,
+    "dz": -0.4472135954999579
+  },
+  {
+    "env": "CartPole-v1",
+    "algorithm": "dqn",
+    "condition": "amrl",
+    "reference": "static",
+    "n": 5,
+    "mean_difference": 169.07,
+    "ci95": [
+      -728.42873340763,
+      1066.56873340763
+    ],
+    "p_t": 0.6285916885082135,
+    "p_exact": 0.6875,
+    "dz": 0.23390354143370662,
+    "p_t_holm_12": 1.0,
+    "p_exact_holm_12": 1.0
+  },
+  {
+    "env": "CartPole-v1",
+    "algorithm": "dqn",
+    "condition": "joint",
+    "reference": "amrl",
+    "n": 5,
+    "mean_difference": -154.81,
+    "ci95": [
+      -687.787121669588,
+      378.1671216695881
+    ],
+    "p_t": 0.4651964999016235,
+    "p_exact": 0.875,
+    "dz": -0.36065713845235275
+  },
+  {
+    "env": "CartPole-v1",
+    "algorithm": "dqn",
+    "condition": "specific",
+    "reference": "amrl",
+    "n": 5,
+    "mean_difference": -139.19,
+    "ci95": [
+      -1042.7726654966075,
+      764.3926654966074
+    ],
+    "p_t": 0.6908967135050397,
+    "p_exact": 0.6875,
+    "dz": -0.19126884402435576
+  },
+  {
+    "env": "CartPole-v1",
+    "algorithm": "ppo",
+    "condition": "amrl",
+    "reference": "static",
+    "n": 5,
+    "mean_difference": -156.07,
+    "ci95": [
+      -612.7666476877705,
+      300.62664768777057
+    ],
+    "p_t": 0.39644282206126963,
+    "p_exact": 0.5,
+    "dz": -0.424322142894615,
+    "p_t_holm_12": 1.0,
+    "p_exact_holm_12": 1.0
+  },
+  {
+    "env": "CartPole-v1",
+    "algorithm": "ppo",
+    "condition": "bounds_double",
+    "reference": "amrl",
+    "n": 5,
+    "mean_difference": -13.520000000000005,
+    "ci95": [
+      -764.435385234977,
+      737.3953852349771
+    ],
+    "p_t": 0.9625277270172334,
+    "p_exact": 1.0,
+    "dz": -0.022355777476129133
+  },
+  {
+    "env": "CartPole-v1",
+    "algorithm": "ppo",
+    "condition": "bounds_half",
+    "reference": "amrl",
+    "n": 5,
+    "mean_difference": 71.22999999999999,
+    "ci95": [
+      -639.579639768655,
+      782.0396397686551
+    ],
+    "p_t": 0.7946282607408734,
+    "p_exact": 1.0,
+    "dz": 0.12442674049952357
+  },
+  {
+    "env": "CartPole-v1",
+    "algorithm": "ppo",
+    "condition": "frozen",
+    "reference": "amrl",
+    "n": 5,
+    "mean_difference": 156.07,
+    "ci95": [
+      -300.62664768777057,
+      612.7666476877705
+    ],
+    "p_t": 0.39644282206126963,
+    "p_exact": 0.5,
+    "dz": 0.424322142894615
+  },
+  {
+    "env": "CartPole-v1",
+    "algorithm": "ppo",
+    "condition": "interval_double",
+    "reference": "amrl",
+    "n": 5,
+    "mean_difference": 8.019999999999982,
+    "ci95": [
+      -688.4387787866002,
+      704.4787787866002
+    ],
+    "p_t": 0.9760262024158168,
+    "p_exact": 1.0,
+    "dz": 0.014298255071095068
+  },
+  {
+    "env": "CartPole-v1",
+    "algorithm": "ppo",
+    "condition": "interval_half",
+    "reference": "amrl",
+    "n": 5,
+    "mean_difference": 76.76999999999998,
+    "ci95": [
+      -631.9307971503118,
+      785.4707971503118
+    ],
+    "p_t": 0.7785835067149866,
+    "p_exact": 1.0,
+    "dz": 0.13450322833753733
+  },
+  {
+    "env": "CartPole-v1",
+    "algorithm": "ppo",
+    "condition": "mlp",
+    "reference": "amrl",
+    "n": 5,
+    "mean_difference": 98.93999999999997,
+    "ci95": [
+      -552.1139719369604,
+      749.9939719369603
+    ],
+    "p_t": 0.6947632167202612,
+    "p_exact": 0.75,
+    "dz": 0.18869439597578533
+  },
+  {
+    "env": "CartPole-v1",
+    "algorithm": "ppo",
+    "condition": "reward_only",
+    "reference": "amrl",
+    "n": 5,
+    "mean_difference": -51.60000000000002,
+    "ci95": [
+      -872.0890532814082,
+      768.8890532814081
+    ],
+    "p_t": 0.8698686332237966,
+    "p_exact": 0.75,
+    "dz": -0.07808740659132224
+  },
+  {
+    "env": "MountainCar-v0",
+    "algorithm": "a2c",
+    "condition": "amrl",
+    "reference": "static",
+    "n": 5,
+    "mean_difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p_t": 1.0,
+    "p_exact": 1.0,
+    "dz": null,
+    "p_t_holm_12": 1.0,
+    "p_exact_holm_12": 1.0
+  },
+  {
+    "env": "MountainCar-v0",
+    "algorithm": "a2c",
+    "condition": "joint",
+    "reference": "amrl",
+    "n": 5,
+    "mean_difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p_t": 1.0,
+    "p_exact": 1.0,
+    "dz": null
+  },
+  {
+    "env": "MountainCar-v0",
+    "algorithm": "a2c",
+    "condition": "specific",
+    "reference": "amrl",
+    "n": 5,
+    "mean_difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p_t": 1.0,
+    "p_exact": 1.0,
+    "dz": null
+  },
+  {
+    "env": "MountainCar-v0",
+    "algorithm": "dqn",
+    "condition": "amrl",
+    "reference": "static",
+    "n": 5,
+    "mean_difference": 0.46999999999999886,
+    "ci95": [
+      -0.8349291994429631,
+      1.7749291994429608
+    ],
+    "p_t": 0.3739009663000589,
+    "p_exact": 1.0,
+    "dz": 0.44721359549995804,
+    "p_t_holm_12": 1.0,
+    "p_exact_holm_12": 1.0
+  },
+  {
+    "env": "MountainCar-v0",
+    "algorithm": "dqn",
+    "condition": "joint",
+    "reference": "amrl",
+    "n": 5,
+    "mean_difference": 14.709999999999999,
+    "ci95": [
+      -26.13150749745961,
+      55.55150749745961
+    ],
+    "p_t": 0.3739009663000589,
+    "p_exact": 1.0,
+    "dz": 0.447213595499958
+  },
+  {
+    "env": "MountainCar-v0",
+    "algorithm": "dqn",
+    "condition": "specific",
+    "reference": "amrl",
+    "n": 5,
+    "mean_difference": -0.65,
+    "ci95": [
+      -2.4546893183785694,
+      1.1546893183785691
+    ],
+    "p_t": 0.373900966300059,
+    "p_exact": 1.0,
+    "dz": -0.4472135954999579
+  },
+  {
+    "env": "MountainCar-v0",
+    "algorithm": "ppo",
+    "condition": "amrl",
+    "reference": "static",
+    "n": 5,
+    "mean_difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p_t": 1.0,
+    "p_exact": 1.0,
+    "dz": null,
+    "p_t_holm_12": 1.0,
+    "p_exact_holm_12": 1.0
+  },
+  {
+    "env": "bsuite/catch/0",
+    "algorithm": "a2c",
+    "condition": "amrl",
+    "reference": "static",
+    "n": 5,
+    "mean_difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p_t": 1.0,
+    "p_exact": 1.0,
+    "dz": null,
+    "p_t_holm_12": 1.0,
+    "p_exact_holm_12": 1.0
+  },
+  {
+    "env": "bsuite/catch/0",
+    "algorithm": "a2c",
+    "condition": "joint",
+    "reference": "amrl",
+    "n": 5,
+    "mean_difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p_t": 1.0,
+    "p_exact": 1.0,
+    "dz": null
+  },
+  {
+    "env": "bsuite/catch/0",
+    "algorithm": "a2c",
+    "condition": "specific",
+    "reference": "amrl",
+    "n": 5,
+    "mean_difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p_t": 1.0,
+    "p_exact": 1.0,
+    "dz": null
+  },
+  {
+    "env": "bsuite/catch/0",
+    "algorithm": "dqn",
+    "condition": "amrl",
+    "reference": "static",
+    "n": 5,
+    "mean_difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p_t": 1.0,
+    "p_exact": 1.0,
+    "dz": null,
+    "p_t_holm_12": 1.0,
+    "p_exact_holm_12": 1.0
+  },
+  {
+    "env": "bsuite/catch/0",
+    "algorithm": "dqn",
+    "condition": "joint",
+    "reference": "amrl",
+    "n": 5,
+    "mean_difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p_t": 1.0,
+    "p_exact": 1.0,
+    "dz": null
+  },
+  {
+    "env": "bsuite/catch/0",
+    "algorithm": "dqn",
+    "condition": "specific",
+    "reference": "amrl",
+    "n": 5,
+    "mean_difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p_t": 1.0,
+    "p_exact": 1.0,
+    "dz": null
+  },
+  {
+    "env": "bsuite/catch/0",
+    "algorithm": "ppo",
+    "condition": "amrl",
+    "reference": "static",
+    "n": 5,
+    "mean_difference": 0.26,
+    "ci95": [
+      -0.0516551901050708,
+      0.5716551901050708
+    ],
+    "p_t": 0.08146997954982556,
+    "p_exact": 0.25,
+    "dz": 1.0358647947564745,
+    "p_t_holm_12": 0.9776397545979068,
+    "p_exact_holm_12": 1.0
+  },
+  {
+    "env": "bsuite/memory_len/0",
+    "algorithm": "a2c",
+    "condition": "amrl",
+    "reference": "static",
+    "n": 5,
+    "mean_difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p_t": 1.0,
+    "p_exact": 1.0,
+    "dz": null,
+    "p_t_holm_12": 1.0,
+    "p_exact_holm_12": 1.0
+  },
+  {
+    "env": "bsuite/memory_len/0",
+    "algorithm": "a2c",
+    "condition": "joint",
+    "reference": "amrl",
+    "n": 5,
+    "mean_difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p_t": 1.0,
+    "p_exact": 1.0,
+    "dz": null
+  },
+  {
+    "env": "bsuite/memory_len/0",
+    "algorithm": "a2c",
+    "condition": "specific",
+    "reference": "amrl",
+    "n": 5,
+    "mean_difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p_t": 1.0,
+    "p_exact": 1.0,
+    "dz": null
+  },
+  {
+    "env": "bsuite/memory_len/0",
+    "algorithm": "dqn",
+    "condition": "amrl",
+    "reference": "static",
+    "n": 5,
+    "mean_difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p_t": 1.0,
+    "p_exact": 1.0,
+    "dz": null,
+    "p_t_holm_12": 1.0,
+    "p_exact_holm_12": 1.0
+  },
+  {
+    "env": "bsuite/memory_len/0",
+    "algorithm": "dqn",
+    "condition": "joint",
+    "reference": "amrl",
+    "n": 5,
+    "mean_difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p_t": 1.0,
+    "p_exact": 1.0,
+    "dz": null
+  },
+  {
+    "env": "bsuite/memory_len/0",
+    "algorithm": "dqn",
+    "condition": "specific",
+    "reference": "amrl",
+    "n": 5,
+    "mean_difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p_t": 1.0,
+    "p_exact": 1.0,
+    "dz": null
+  },
+  {
+    "env": "bsuite/memory_len/0",
+    "algorithm": "ppo",
+    "condition": "amrl",
+    "reference": "static",
+    "n": 5,
+    "mean_difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p_t": 1.0,
+    "p_exact": 1.0,
+    "dz": null,
+    "p_t_holm_12": 1.0,
+    "p_exact_holm_12": 1.0
+  },
+  {
+    "env": "MountainCar-v0",
+    "algorithm": "ppo",
+    "condition": "target_trained",
+    "reference": "static",
+    "n": 5,
+    "mean_difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p_t": 1.0,
+    "p_exact": 1.0,
+    "dz": null
+  },
+  {
+    "env": "MountainCar-v0",
+    "algorithm": "ppo",
+    "condition": "transfer_from_0",
+    "reference": "static",
+    "n": 5,
+    "mean_difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p_t": 1.0,
+    "p_exact": 1.0,
+    "dz": null
+  },
+  {
+    "env": "bsuite/catch/0",
+    "algorithm": "ppo",
+    "condition": "target_trained",
+    "reference": "static",
+    "n": 5,
+    "mean_difference": 0.16,
+    "ci95": [
+      -0.1258525190987028,
+      0.4458525190987028
+    ],
+    "p_t": 0.19513791758605345,
+    "p_exact": 0.5,
+    "dz": 0.694995588420911
+  },
+  {
+    "env": "bsuite/catch/0",
+    "algorithm": "ppo",
+    "condition": "transfer_from_1",
+    "reference": "static",
+    "n": 5,
+    "mean_difference": 0.16,
+    "ci95": [
+      -0.1258525190987028,
+      0.4458525190987028
+    ],
+    "p_t": 0.19513791758605345,
+    "p_exact": 0.5,
+    "dz": 0.694995588420911
+  },
+  {
+    "env": "bsuite/memory_len/0",
+    "algorithm": "ppo",
+    "condition": "target_trained",
+    "reference": "static",
+    "n": 5,
+    "mean_difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p_t": 1.0,
+    "p_exact": 1.0,
+    "dz": null
+  },
+  {
+    "env": "bsuite/memory_len/0",
+    "algorithm": "ppo",
+    "condition": "transfer_from_0",
+    "reference": "static",
+    "n": 5,
+    "mean_difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p_t": 1.0,
+    "p_exact": 1.0,
+    "dz": null
+  }
+]
