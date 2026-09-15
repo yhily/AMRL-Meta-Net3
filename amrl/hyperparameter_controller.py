@@ -11,6 +11,7 @@ class HPController:
         da,dg,db = map(float,d)
         low,high = 1e-5,1e-2
         if self.safeguard != 'no_drift':
+            low,high = max(low,.1*self.a0),min(high,10*self.a0)
         self.a = float(np.clip(self.a*(1+da),low,high))
         self.g = float(np.clip(self.g+dg,.90,.999))
         self.b = float(np.clip(self.b+db,0,1))
